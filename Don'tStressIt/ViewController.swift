@@ -8,13 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class UserSelectViewController: UIViewController {
+    
+    @IBOutlet weak var studentUser: UIButton!
+    @IBOutlet weak var tutorUser: UIButton!
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        studentUser.layer.cornerRadius = 10
+        tutorUser.layer.cornerRadius = 10
+    }
+    
+    @IBAction func studentButtonClick(_ sender: Any) {
+        
     }
 
+    @IBAction func tutorButtonClick(_ sender: Any) {
+    
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

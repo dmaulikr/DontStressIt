@@ -126,7 +126,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Username:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJd-bd-WQt">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Username:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJd-bd-WQt">
                                 <rect key="frame" x="16" y="232" width="123" height="37"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -136,22 +136,22 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Password:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znr-uf-nQk">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Password:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znr-uf-nQk">
                                 <rect key="frame" x="16" y="315" width="123" height="37"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Confirm:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFx-kB-jLU">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Confirm:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFx-kB-jLU">
                                 <rect key="frame" x="16" y="399" width="123" height="37"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qZR-R5-sgp">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qZR-R5-sgp">
                                 <rect key="frame" x="0.0" y="194" width="375" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="IyE-cS-Ljt"/>
+                                    <constraint firstAttribute="height" constant="30" id="j4a-cK-mHY"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -160,21 +160,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="qZR-R5-sgp" firstAttribute="top" secondItem="H4c-0H-nBb" secondAttribute="bottom" constant="5" id="5uS-mM-kO5"/>
                             <constraint firstItem="znr-uf-nQk" firstAttribute="leading" secondItem="oFx-kB-jLU" secondAttribute="leading" id="7YV-FF-bTr"/>
-                            <constraint firstItem="H4c-0H-nBb" firstAttribute="leading" secondItem="qZR-R5-sgp" secondAttribute="leading" id="Ase-eS-OF0"/>
+                            <constraint firstItem="qZR-R5-sgp" firstAttribute="top" secondItem="H4c-0H-nBb" secondAttribute="bottom" constant="5" id="G2s-qD-nYj"/>
                             <constraint firstItem="znr-uf-nQk" firstAttribute="top" secondItem="mJd-bd-WQt" secondAttribute="bottom" constant="46" id="Gey-TH-KmL"/>
                             <constraint firstItem="mJd-bd-WQt" firstAttribute="leading" secondItem="znr-uf-nQk" secondAttribute="leading" id="IIa-vy-EI2"/>
-                            <constraint firstItem="qZR-R5-sgp" firstAttribute="leading" secondItem="mJd-bd-WQt" secondAttribute="leading" id="TRR-Zb-yKB"/>
+                            <constraint firstItem="mJd-bd-WQt" firstAttribute="top" secondItem="qZR-R5-sgp" secondAttribute="bottom" constant="8" symbolic="YES" id="JLW-QV-JVQ"/>
                             <constraint firstItem="mJd-bd-WQt" firstAttribute="trailing" secondItem="znr-uf-nQk" secondAttribute="trailing" id="U3P-L3-meh"/>
                             <constraint firstItem="H4c-0H-nBb" firstAttribute="top" secondItem="65l-rN-qEr" secondAttribute="bottom" constant="94" id="VUg-XR-gbh"/>
-                            <constraint firstItem="mJd-bd-WQt" firstAttribute="top" secondItem="qZR-R5-sgp" secondAttribute="bottom" constant="8" symbolic="YES" id="as3-1a-l9B"/>
                             <constraint firstItem="znr-uf-nQk" firstAttribute="centerY" secondItem="DcA-ao-frR" secondAttribute="centerY" id="bu7-OV-BK2"/>
+                            <constraint firstItem="qZR-R5-sgp" firstAttribute="leading" secondItem="DcA-ao-frR" secondAttribute="leading" id="c7c-q9-lK8"/>
                             <constraint firstItem="oFx-kB-jLU" firstAttribute="top" secondItem="znr-uf-nQk" secondAttribute="bottom" constant="47" id="e6Z-cX-hUY"/>
+                            <constraint firstAttribute="trailing" secondItem="qZR-R5-sgp" secondAttribute="trailing" id="hY4-Vh-FCa"/>
                             <constraint firstItem="znr-uf-nQk" firstAttribute="trailing" secondItem="oFx-kB-jLU" secondAttribute="trailing" id="q53-yu-4Oc"/>
                             <constraint firstItem="fw7-oC-omR" firstAttribute="top" secondItem="oFx-kB-jLU" secondAttribute="bottom" constant="231" id="rVZ-8N-2va"/>
                             <constraint firstItem="H4c-0H-nBb" firstAttribute="leading" secondItem="DcA-ao-frR" secondAttribute="leadingMargin" id="vKo-Ah-GfD"/>
-                            <constraint firstItem="qZR-R5-sgp" firstAttribute="width" secondItem="DcA-ao-frR" secondAttribute="width" id="vdT-x1-hUE"/>
                         </constraints>
                     </view>
                     <connections>

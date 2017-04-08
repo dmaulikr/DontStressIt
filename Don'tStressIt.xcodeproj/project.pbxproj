@@ -19,6 +19,7 @@
 		A10CC6661E9963BA001A28EC /* Don_tStressItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10CC6651E9963BA001A28EC /* Don_tStressItUITests.swift */; };
 		A16AA7021E998F2300977B9E /* StudentUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AA7011E998F2300977B9E /* StudentUserViewController.swift */; };
 		A16AA7041E998F6E00977B9E /* TutorUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AA7031E998F6E00977B9E /* TutorUserViewController.swift */; };
+		A16AA7061E99A70B00977B9E /* LoginVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AA7051E99A70B00977B9E /* LoginVIewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A10CC6671E9963BA001A28EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16AA7011E998F2300977B9E /* StudentUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentUserViewController.swift; sourceTree = "<group>"; };
 		A16AA7031E998F6E00977B9E /* TutorUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorUserViewController.swift; sourceTree = "<group>"; };
+		A16AA7051E99A70B00977B9E /* LoginVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVIewController.swift; sourceTree = "<group>"; };
 		BA83680C34243BE93984498B /* Pods_Don_tStressItTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Don_tStressItTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCD8080F5582970B95B84B4 /* Pods_Don_tStressItUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Don_tStressItUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E875E6756549C88916C6A0 /* Pods-Don'tStressItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Don'tStressItTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Don'tStressItTests/Pods-Don'tStressItTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				A10CC64C1E9963B9001A28EC /* Assets.xcassets */,
 				A10CC64E1E9963B9001A28EC /* LaunchScreen.storyboard */,
 				A10CC6511E9963B9001A28EC /* Info.plist */,
+				A16AA7051E99A70B00977B9E /* LoginVIewController.swift */,
 			);
 			path = "Don'tStressIt";
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				A16AA7021E998F2300977B9E /* StudentUserViewController.swift in Sources */,
 				A10CC6481E9963B9001A28EC /* ViewController.swift in Sources */,
 				A10CC6461E9963B9001A28EC /* AppDelegate.swift in Sources */,
+				A16AA7061E99A70B00977B9E /* LoginVIewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

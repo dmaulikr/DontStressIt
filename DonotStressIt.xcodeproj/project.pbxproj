@@ -12,7 +12,9 @@
 		A1004AC01E9A0739007B7F44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1004ABF1E9A0739007B7F44 /* GoogleService-Info.plist */; };
 		A1004AC11E9A0739007B7F44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1004ABF1E9A0739007B7F44 /* GoogleService-Info.plist */; };
 		A1004AC21E9A0739007B7F44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1004ABF1E9A0739007B7F44 /* GoogleService-Info.plist */; };
-		A1C7BEA11E9A2C7300351851 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7BEA01E9A2C7300351851 /* ChatViewController.swift */; };
+		A142AC611E9A542D0063B221 /* ChatUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142AC601E9A542D0063B221 /* ChatUIView.swift */; };
+		A142AC621E9A542D0063B221 /* ChatUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142AC601E9A542D0063B221 /* ChatUIView.swift */; };
+		A142AC631E9A542D0063B221 /* ChatUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142AC601E9A542D0063B221 /* ChatUIView.swift */; };
 		A1DC039D1E99F6E8006B996B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC039C1E99F6E8006B996B /* AppDelegate.swift */; };
 		A1DC039F1E99F6E8006B996B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC039E1E99F6E8006B996B /* ViewController.swift */; };
 		A1DC03A21E99F6E8006B996B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DC03A01E99F6E8006B996B /* Main.storyboard */; };
@@ -50,7 +52,7 @@
 		76A0E6DA830250F69EE7F27D /* Pods-DoNotStressItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoNotStressItTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoNotStressItTests/Pods-DoNotStressItTests.release.xcconfig"; sourceTree = "<group>"; };
 		8F7A00ABE7F26B3315B84E15 /* Pods-DoNotStressIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoNotStressIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoNotStressIt/Pods-DoNotStressIt.debug.xcconfig"; sourceTree = "<group>"; };
 		A1004ABF1E9A0739007B7F44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A1C7BEA01E9A2C7300351851 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A142AC601E9A542D0063B221 /* ChatUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatUIView.swift; sourceTree = "<group>"; };
 		A1DC03991E99F6E8006B996B /* DoNotStressIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoNotStressIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DC039C1E99F6E8006B996B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1DC039E1E99F6E8006B996B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,7 +151,7 @@
 		A1DC039B1E99F6E8006B996B /* DoNotStressIt */ = {
 			isa = PBXGroup;
 			children = (
-				A1C7BEA01E9A2C7300351851 /* ChatViewController.swift */,
+				A142AC601E9A542D0063B221 /* ChatUIView.swift */,
 				A1004ABF1E9A0739007B7F44 /* GoogleService-Info.plist */,
 				A1DC039C1E99F6E8006B996B /* AppDelegate.swift */,
 				A1DC039E1E99F6E8006B996B /* ViewController.swift */,
@@ -469,11 +471,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C7BEA11E9A2C7300351851 /* ChatViewController.swift in Sources */,
 				A1DC039F1E99F6E8006B996B /* ViewController.swift in Sources */,
 				A1DC03CD1E99FBB9006B996B /* TutorSignupViewController.swift in Sources */,
 				A1DC03CB1E99FBB0006B996B /* StudentSignupViewController.swift in Sources */,
 				A1DC03CF1E99FBC1006B996B /* LoginViewController.swift in Sources */,
+				A142AC611E9A542D0063B221 /* ChatUIView.swift in Sources */,
 				A1DC039D1E99F6E8006B996B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A142AC621E9A542D0063B221 /* ChatUIView.swift in Sources */,
 				A1DC03B21E99F6E8006B996B /* DoNotStressItTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A142AC631E9A542D0063B221 /* ChatUIView.swift in Sources */,
 				A1DC03BD1E99F6E8006B996B /* DoNotStressItUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

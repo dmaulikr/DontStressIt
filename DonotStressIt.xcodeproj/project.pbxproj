@@ -14,6 +14,9 @@
 		A1DC03A71E99F6E8006B996B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DC03A51E99F6E8006B996B /* LaunchScreen.storyboard */; };
 		A1DC03B21E99F6E8006B996B /* DoNotStressItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC03B11E99F6E8006B996B /* DoNotStressItTests.swift */; };
 		A1DC03BD1E99F6E8006B996B /* DoNotStressItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC03BC1E99F6E8006B996B /* DoNotStressItUITests.swift */; };
+		A1DC03CB1E99FBB0006B996B /* StudentSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC03CA1E99FBB0006B996B /* StudentSignupViewController.swift */; };
+		A1DC03CD1E99FBB9006B996B /* TutorSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC03CC1E99FBB9006B996B /* TutorSignupViewController.swift */; };
+		A1DC03CF1E99FBC1006B996B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC03CE1E99FBC1006B996B /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A1DC03B81E99F6E8006B996B /* DoNotStressItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoNotStressItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DC03BC1E99F6E8006B996B /* DoNotStressItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoNotStressItUITests.swift; sourceTree = "<group>"; };
 		A1DC03BE1E99F6E8006B996B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DC03CA1E99FBB0006B996B /* StudentSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentSignupViewController.swift; sourceTree = "<group>"; };
+		A1DC03CC1E99FBB9006B996B /* TutorSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorSignupViewController.swift; sourceTree = "<group>"; };
+		A1DC03CE1E99FBC1006B996B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				A1DC039C1E99F6E8006B996B /* AppDelegate.swift */,
 				A1DC039E1E99F6E8006B996B /* ViewController.swift */,
 				A1DC03A01E99F6E8006B996B /* Main.storyboard */,
+				A1DC03CA1E99FBB0006B996B /* StudentSignupViewController.swift */,
+				A1DC03CC1E99FBB9006B996B /* TutorSignupViewController.swift */,
+				A1DC03CE1E99FBC1006B996B /* LoginViewController.swift */,
 				A1DC03A31E99F6E8006B996B /* Assets.xcassets */,
 				A1DC03A51E99F6E8006B996B /* LaunchScreen.storyboard */,
 				A1DC03A81E99F6E8006B996B /* Info.plist */,
@@ -263,6 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1DC039F1E99F6E8006B996B /* ViewController.swift in Sources */,
+				A1DC03CD1E99FBB9006B996B /* TutorSignupViewController.swift in Sources */,
+				A1DC03CB1E99FBB0006B996B /* StudentSignupViewController.swift in Sources */,
+				A1DC03CF1E99FBC1006B996B /* LoginViewController.swift in Sources */,
 				A1DC039D1E99F6E8006B996B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +528,7 @@
 				A1DC03C31E99F6E8006B996B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1DC03C41E99F6E8006B996B /* Build configuration list for PBXNativeTarget "DoNotStressItTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				A1DC03C61E99F6E8006B996B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1DC03C71E99F6E8006B996B /* Build configuration list for PBXNativeTarget "DoNotStressItUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				A1DC03C91E99F6E8006B996B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

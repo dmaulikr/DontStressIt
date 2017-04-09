@@ -8,8 +8,12 @@
 
 import Foundation
 import UIKit
+import Firebase
 
 class StudentSignupViewController:UIViewController {
+	
+	var allUsers:[String] = []
+	var rootRef = FIRDatabase.database().reference(withPath: "Conversation/Users")
 	
 	@IBOutlet weak var emailTextField: UITextField!
 	@IBOutlet weak var nameTextField: UITextField!
@@ -17,6 +21,10 @@ class StudentSignupViewController:UIViewController {
 	@IBOutlet weak var passwordTextField: UITextField!
 	@IBOutlet weak var confirmTextField: UITextField!
 	
+	@IBAction func signupClick(_ sender: Any) {
+		signUpUser()
+		addUID()
+	}
 	
 	override func viewDidLoad() {
 		//Top TextFieldLine
@@ -48,4 +56,83 @@ class StudentSignupViewController:UIViewController {
 		textField.layer.addSublayer(bottomLayer)
 		textField.layer.masksToBounds = true
 	}
+	
+	func addUID(){
+		let tempRef = rootRef.childByAutoId();
+		rootRef = rootRef.child(tempRef.key) //Conversation/User/UID
+		
+	}
+	
+	func uniqueUsername (username: String? , allUser: Array<String>) -> Bool{ //Ensures that use enters a uniquie username
+		for eachuser in allUsers{
+			if username == eachuser{
+				return false
+			}
+		}
+		return true
+	}
+	
+	func alert(title:String?, message: String?, option: String? ){
+		let alertController = UIAlertController(title: title ?? "Error!", message: message, preferredStyle: .alert) //Alert function for use within class
+		alertController.addAction(UIAlertAction(title: option ?? "OK" , style: .cancel, handler:nil))
+			present(alertController,animated: true, completion:nil)
+		
+	}
+	
+	
+	func currentUsers() {
+		let usersRef = FIRDatabase.database().reference().child("Users")
+		usersRef.observeSingleEvent(of: .value, with: {
+			(snapshot: FIRDataSnapshot) in
+			for user in snapshot.children {
+				let users: String = (user as AnyObject).childSnapshot(forPath: "displayName").value as! String
+				self.allUsers.append(users)
+			}
+		})
+	}
+	
+	
+	func signUpUser(){
+		if self.emailTextField.text!.isEmpty || self.usernameTextField.text!.isEmpty || self.passwordTextField.text!.isEmpty || self.confirmTextField.text!.isEmpty || self.usernameTextField.text!.isEmpty
+		{
+			self.alert(title: "Error!", message: "Please fill in all the fields!", option: "OK")
+		}
+		else
+		{
+			if uniqueUsername(username: self.usernameTextField.text!, allUser: allUsers)
+			{
+				FIRAuth.auth()?.createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { user,error in
+					if self.confirmTextField.text! == self.passwordTextField.text!  && self.passwordTextField.text!.characters.count >= 6
+					{
+						if error != nil || self.nameTextField.text!.characters.count == 0
+						{
+							print (error!)
+							self.alert(title: "Error!", message: "Invalid e-mail or password! ", option: "Try Again")
+						}
+						else
+						{
+							self.alert(title: "Success", message: "Account Created", option: "OK")
+							
+							//Add user info into FirDatabase
+							let username = self.usernameTextField.text!
+							let email = self.emailTextField.text!
+							
+							FIRDatabase.database().reference(withPath: "Users/\(FIRAuth.auth()!.currentUser!.uid)").updateChildValues(["uid": "Student\(FIRAuth.auth()!.currentUser!.uid)", "displayName": username, "Email": email])
+						}
+					}
+					else
+					{
+						self.alert(title: "Error!", message: "Password is less than six cgaracters or does not match", option: "Try Agian!")
+					}
+				}
+			}
+			else
+			{
+					self.alert(title: "Error", message: "Username Taken!", option: "Choose Another Username")
+			}
+		}
+
+	}
+	
 }
+

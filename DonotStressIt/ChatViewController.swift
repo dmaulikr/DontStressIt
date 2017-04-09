@@ -8,8 +8,9 @@
 
 import Foundation
 import UIKit
+import JSQMessagesViewController
 
-class ChatListViewController: UIViewController{
+class ChatViewController: JSQMessagesViewController {
 	override func viewDidLoad() {
 		
 	}

@@ -59,7 +59,11 @@ class LoginViewController:UIViewController {
 				if error != nil{
 					self.alert(title: "Error!", message: "Username or password invalid", option: "Try Again")
 				} else {
-					self.alert(title: "Success!", message: "Account Logged IN", option: "Get Learnin'")
+					//self.alert(title: "Success!", message: "Account Logged IN", option: "Get Learnin'")
+//					let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//					let vc = storyboard.instantiateViewController(withIdentifier: "ChatListViewController") as! ChatListViewController
+//					navigationController?.pushViewController(vc,animated: true)
+
 				}
 			}
 		}

@@ -112,7 +112,7 @@ class StudentSignupViewController:UIViewController {
 						else
 						{
 							self.alert(title: "Success", message: "Account Created", option: "OK")
-							
+							//performSegue(withIdentifier: "goToChat", sender: nil)
 							//Add user info into FirDatabase
 							let username = self.usernameTextField.text!
 							let email = self.emailTextField.text!

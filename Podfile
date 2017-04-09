@@ -10,6 +10,7 @@ target 'DoNotStressIt' do
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
+pod 'JSQMessagesViewController'
 
   target 'DoNotStressItTests' do
     inherit! :search_paths

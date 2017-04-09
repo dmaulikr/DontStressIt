@@ -16,6 +16,11 @@
 		A10CC6501E9963B9001A28EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10CC64E1E9963B9001A28EC /* LaunchScreen.storyboard */; };
 		A10CC65B1E9963BA001A28EC /* Don_tStressItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10CC65A1E9963BA001A28EC /* Don_tStressItTests.swift */; };
 		A10CC6661E9963BA001A28EC /* Don_tStressItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10CC6651E9963BA001A28EC /* Don_tStressItUITests.swift */; };
+		A130C5221E99DBF90094B5FB /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130C5211E99DBF90094B5FB /* ChatListViewController.swift */; };
+		A130C5241E99DC0A0094B5FB /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130C5231E99DC0A0094B5FB /* ConversationViewController.swift */; };
+		A130C5261E99E1D90094B5FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A130C5251E99E1D90094B5FB /* GoogleService-Info.plist */; };
+		A130C5271E99E1D90094B5FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A130C5251E99E1D90094B5FB /* GoogleService-Info.plist */; };
+		A130C5281E99E1D90094B5FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A130C5251E99E1D90094B5FB /* GoogleService-Info.plist */; };
 		A16AA7021E998F2300977B9E /* StudentUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AA7011E998F2300977B9E /* StudentUserViewController.swift */; };
 		A16AA7041E998F6E00977B9E /* TutorUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AA7031E998F6E00977B9E /* TutorUserViewController.swift */; };
 		A16AA7061E99A70B00977B9E /* LoginVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AA7051E99A70B00977B9E /* LoginVIewController.swift */; };
@@ -59,6 +64,9 @@
 		A10CC6611E9963BA001A28EC /* Don'tStressItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Don'tStressItUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10CC6651E9963BA001A28EC /* Don_tStressItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Don_tStressItUITests.swift; sourceTree = "<group>"; };
 		A10CC6671E9963BA001A28EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A130C5211E99DBF90094B5FB /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		A130C5231E99DC0A0094B5FB /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		A130C5251E99E1D90094B5FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A16AA7011E998F2300977B9E /* StudentUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentUserViewController.swift; sourceTree = "<group>"; };
 		A16AA7031E998F6E00977B9E /* TutorUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorUserViewController.swift; sourceTree = "<group>"; };
 		A16AA7051E99A70B00977B9E /* LoginVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVIewController.swift; sourceTree = "<group>"; };
@@ -134,8 +142,11 @@
 		A10CC6441E9963B9001A28EC /* Don'tStressIt */ = {
 			isa = PBXGroup;
 			children = (
+				A130C5251E99E1D90094B5FB /* GoogleService-Info.plist */,
 				A10CC6451E9963B9001A28EC /* AppDelegate.swift */,
 				A10CC6471E9963B9001A28EC /* ViewController.swift */,
+				A130C5211E99DBF90094B5FB /* ChatListViewController.swift */,
+				A130C5231E99DC0A0094B5FB /* ConversationViewController.swift */,
 				A10CC6491E9963B9001A28EC /* Main.storyboard */,
 				A16AA7011E998F2300977B9E /* StudentUserViewController.swift */,
 				A16AA7031E998F6E00977B9E /* TutorUserViewController.swift */,
@@ -316,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10CC6501E9963B9001A28EC /* LaunchScreen.storyboard in Resources */,
+				A130C5261E99E1D90094B5FB /* GoogleService-Info.plist in Resources */,
 				A10CC64D1E9963B9001A28EC /* Assets.xcassets in Resources */,
 				A10CC64B1E9963B9001A28EC /* Main.storyboard in Resources */,
 			);
@@ -325,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A130C5271E99E1D90094B5FB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A130C5281E99E1D90094B5FB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +499,8 @@
 				A10CC6481E9963B9001A28EC /* ViewController.swift in Sources */,
 				A10CC6461E9963B9001A28EC /* AppDelegate.swift in Sources */,
 				A16AA7061E99A70B00977B9E /* LoginVIewController.swift in Sources */,
+				A130C5221E99DBF90094B5FB /* ChatListViewController.swift in Sources */,
+				A130C5241E99DC0A0094B5FB /* ConversationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

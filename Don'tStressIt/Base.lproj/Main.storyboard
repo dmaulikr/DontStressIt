@@ -13,7 +13,7 @@
         <scene sceneID="6H3-iG-Jrs">
             <objects>
                 <navigationController id="wkg-84-h5j" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="uBB-rZ-3fP">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uBB-rZ-3fP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0" green="0.71787478226421619" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -186,6 +186,7 @@
                                 </state>
                                 <connections>
                                     <action selector="signupButtonClick:" destination="OXn-N0-oJQ" eventType="touchUpInside" id="S5X-Tl-Ulh"/>
+                                    <segue destination="XCm-nl-TfK" kind="show" id="g8V-Lt-D9I"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -224,10 +225,27 @@
             </objects>
             <point key="canvasLocation" x="996" y="120.98950524737631"/>
         </scene>
+        <!--Conversation View Controller-->
+        <scene sceneID="aBP-Wd-GYL">
+            <objects>
+                <viewController id="XCm-nl-TfK" customClass="ConversationViewController" customModule="Don_tStressIt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d2f-yv-H0v"/>
+                        <viewControllerLayoutGuide type="bottom" id="0i5-YQ-rN9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rHP-7K-O3e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vcx-om-ngs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1999" y="121"/>
+        </scene>
         <!--Login View Controller-->
         <scene sceneID="t1q-9p-bE0">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iMf-zK-vDW" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="dRg-3K-vRP" customClass="LoginViewController" customModule="Don_tStressIt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5uh-sZ-YYK"/>
@@ -269,6 +287,7 @@
                         <outlet property="passwordTextField" destination="FvQ-DQ-ZKZ" id="8uJ-mn-093"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iMf-zK-vDW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="98" y="868"/>
         </scene>

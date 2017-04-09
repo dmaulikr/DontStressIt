@@ -175,6 +175,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCD-R5-kJf">
+                                <rect key="frame" x="-0.5" y="528" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.59309396457484387" green="1" blue="0.5337744697489768" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xJD-rK-Agq"/>
+                                </constraints>
+                                <state key="normal" title="Sign Up!">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="signupButtonClick:" destination="OXn-N0-oJQ" eventType="touchUpInside" id="S5X-Tl-Ulh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -185,13 +198,16 @@
                             <constraint firstItem="uL0-nD-ZMB" firstAttribute="width" secondItem="DcA-ao-frR" secondAttribute="width" id="a53-r0-yDg"/>
                             <constraint firstItem="uvg-GJ-7na" firstAttribute="top" secondItem="DQs-FD-yrl" secondAttribute="bottom" constant="47" id="c3w-v5-U96"/>
                             <constraint firstItem="qZR-R5-sgp" firstAttribute="top" secondItem="65l-rN-qEr" secondAttribute="bottom" constant="140" id="cDR-8R-UX6"/>
+                            <constraint firstItem="GCD-R5-kJf" firstAttribute="width" secondItem="DcA-ao-frR" secondAttribute="width" id="cEH-SV-8iz"/>
                             <constraint firstItem="uvg-GJ-7na" firstAttribute="trailing" secondItem="Get-FH-D2H" secondAttribute="trailing" id="gdt-gT-8rh"/>
                             <constraint firstItem="Get-FH-D2H" firstAttribute="top" secondItem="uvg-GJ-7na" secondAttribute="bottom" id="jRr-gG-2Es"/>
                             <constraint firstItem="Get-FH-D2H" firstAttribute="trailing" secondItem="uL0-nD-ZMB" secondAttribute="trailing" id="kOm-gx-nnj"/>
+                            <constraint firstItem="GCD-R5-kJf" firstAttribute="centerX" secondItem="uL0-nD-ZMB" secondAttribute="centerX" id="lPj-gU-GRN"/>
                             <constraint firstItem="uL0-nD-ZMB" firstAttribute="centerX" secondItem="DcA-ao-frR" secondAttribute="centerX" id="mlt-JD-YCy"/>
                             <constraint firstItem="uL0-nD-ZMB" firstAttribute="top" secondItem="Get-FH-D2H" secondAttribute="bottom" constant="-1" id="omU-cX-RJn"/>
                             <constraint firstItem="uvg-GJ-7na" firstAttribute="leading" secondItem="Get-FH-D2H" secondAttribute="leading" id="uam-jU-rRM"/>
                             <constraint firstItem="Get-FH-D2H" firstAttribute="leading" secondItem="uL0-nD-ZMB" secondAttribute="leading" id="umY-VO-Qgd"/>
+                            <constraint firstItem="fw7-oC-omR" firstAttribute="top" secondItem="GCD-R5-kJf" secondAttribute="bottom" constant="99" id="vnl-YD-NQj"/>
                             <constraint firstItem="qZR-R5-sgp" firstAttribute="leading" secondItem="uvg-GJ-7na" secondAttribute="leading" id="xjU-UR-V9N"/>
                         </constraints>
                     </view>
@@ -200,12 +216,13 @@
                         <outlet property="emailTextField" destination="DQs-FD-yrl" id="k3Y-jN-ACr"/>
                         <outlet property="nameTextField" destination="qZR-R5-sgp" id="ESz-e2-4Ni"/>
                         <outlet property="passwordTextField" destination="Get-FH-D2H" id="oic-22-K4i"/>
+                        <outlet property="signupButton" destination="GCD-R5-kJf" id="T7W-So-AyF"/>
                         <outlet property="usernameTextField" destination="uvg-GJ-7na" id="udE-wa-GaV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wwK-nf-Ahi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="996" y="121"/>
+            <point key="canvasLocation" x="996" y="120.98950524737631"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="t1q-9p-bE0">

@@ -16,8 +16,12 @@ class StudentUserViewController: UIViewController{
 	@IBOutlet weak var usernameTextField: UITextField!
 	@IBOutlet weak var passwordTextField: UITextField!
 	@IBOutlet weak var confirmTextField: UITextField!
+	@IBOutlet weak var signupButton: UIButton!
 	override func viewDidLoad() {
-
+		signupButton.layer.cornerRadius = 10
+	}
+	@IBAction func signupButtonClick(_ sender: Any) {
+		
 	}
 	
 	override func viewDidLayoutSubviews() {

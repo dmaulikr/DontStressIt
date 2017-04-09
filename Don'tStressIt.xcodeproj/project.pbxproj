@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		38917DC7CEDDF9E17C804977 /* Pods_Don_tStressItUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCD8080F5582970B95B84B4 /* Pods_Don_tStressItUITests.framework */; };
 		6F9CAAEB24DCFA509B5CE339 /* Pods_Don_tStressItTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA83680C34243BE93984498B /* Pods_Don_tStressItTests.framework */; };
-		8BE0D25C98551C529D660BE0 /* Pods_Don_tStressIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FDC48A1A9565E4D689582C /* Pods_Don_tStressIt.framework */; };
 		A10CC6461E9963B9001A28EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10CC6451E9963B9001A28EC /* AppDelegate.swift */; };
 		A10CC6481E9963B9001A28EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10CC6471E9963B9001A28EC /* ViewController.swift */; };
 		A10CC64B1E9963B9001A28EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10CC6491E9963B9001A28EC /* Main.storyboard */; };
@@ -20,9 +19,10 @@
 		A16AA7021E998F2300977B9E /* StudentUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AA7011E998F2300977B9E /* StudentUserViewController.swift */; };
 		A16AA7041E998F6E00977B9E /* TutorUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AA7031E998F6E00977B9E /* TutorUserViewController.swift */; };
 		A16AA7061E99A70B00977B9E /* LoginVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AA7051E99A70B00977B9E /* LoginVIewController.swift */; };
-		A16AA7081E99B6F100977B9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A16AA7071E99B6F100977B9E /* GoogleService-Info.plist */; };
-		A16AA7091E99B6F100977B9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A16AA7071E99B6F100977B9E /* GoogleService-Info.plist */; };
-		A16AA70A1E99B6F100977B9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A16AA7071E99B6F100977B9E /* GoogleService-Info.plist */; };
+		A16B3EF61E99CDE300A71DD0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D9CD121E99C94D008EA2E4 /* CoreData.framework */; };
+		A16B3EFE1E99D06400A71DD0 /* Pods_Don_tStressItTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16B3EFD1E99D06400A71DD0 /* Pods_Don_tStressItTests.framework */; };
+		A16B3F001E99D07200A71DD0 /* Pods_Don_tStressItUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16B3EFF1E99D07200A71DD0 /* Pods_Don_tStressItUITests.framework */; };
+		B21C86F51B1849997E559BB0 /* Pods_Don_tStressIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FDC48A1A9565E4D689582C /* Pods_Don_tStressIt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,14 @@
 		A16AA7011E998F2300977B9E /* StudentUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentUserViewController.swift; sourceTree = "<group>"; };
 		A16AA7031E998F6E00977B9E /* TutorUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorUserViewController.swift; sourceTree = "<group>"; };
 		A16AA7051E99A70B00977B9E /* LoginVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVIewController.swift; sourceTree = "<group>"; };
-		A16AA7071E99B6F100977B9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A16B3EF91E99CE3C00A71DD0 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		A16B3EFB1E99CE4C00A71DD0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A16B3EFD1E99D06400A71DD0 /* Pods_Don_tStressItTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Don_tStressItTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_Don_tStressItTests.framework"; sourceTree = "<group>"; };
+		A16B3EFF1E99D07200A71DD0 /* Pods_Don_tStressItUITests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Don_tStressItUITests.framework; path = "Pods/../build/Debug-iphoneos/Pods_Don_tStressItUITests.framework"; sourceTree = "<group>"; };
+		A1D9CD0E1E99C8D2008EA2E4 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../../Library/Developer/Xcode/DerivedData/Don'tStressIt-ekmckpbrljqllkgxiwimwwiavetu/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		A1D9CD101E99C935008EA2E4 /* FirebaseAnalytics */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = FirebaseAnalytics; path = Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics; sourceTree = "<group>"; };
+		A1D9CD121E99C94D008EA2E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A1D9CD141E99C964008EA2E4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		BA83680C34243BE93984498B /* Pods_Don_tStressItTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Don_tStressItTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCD8080F5582970B95B84B4 /* Pods_Don_tStressItUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Don_tStressItUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E875E6756549C88916C6A0 /* Pods-Don'tStressItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Don'tStressItTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Don'tStressItTests/Pods-Don'tStressItTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,7 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BE0D25C98551C529D660BE0 /* Pods_Don_tStressIt.framework in Frameworks */,
+				A16B3F001E99D07200A71DD0 /* Pods_Don_tStressItUITests.framework in Frameworks */,
+				A16B3EFE1E99D06400A71DD0 /* Pods_Don_tStressItTests.framework in Frameworks */,
+				A16B3EF61E99CDE300A71DD0 /* CoreData.framework in Frameworks */,
+				B21C86F51B1849997E559BB0 /* Pods_Don_tStressIt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,11 +139,10 @@
 				A10CC6491E9963B9001A28EC /* Main.storyboard */,
 				A16AA7011E998F2300977B9E /* StudentUserViewController.swift */,
 				A16AA7031E998F6E00977B9E /* TutorUserViewController.swift */,
+				A16AA7051E99A70B00977B9E /* LoginVIewController.swift */,
 				A10CC64C1E9963B9001A28EC /* Assets.xcassets */,
 				A10CC64E1E9963B9001A28EC /* LaunchScreen.storyboard */,
 				A10CC6511E9963B9001A28EC /* Info.plist */,
-				A16AA7051E99A70B00977B9E /* LoginVIewController.swift */,
-				A16AA7071E99B6F100977B9E /* GoogleService-Info.plist */,
 			);
 			path = "Don'tStressIt";
 			sourceTree = "<group>";
@@ -159,6 +168,14 @@
 		C2F8323CE46037415B5BE380 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A16B3EFF1E99D07200A71DD0 /* Pods_Don_tStressItUITests.framework */,
+				A16B3EFD1E99D06400A71DD0 /* Pods_Don_tStressItTests.framework */,
+				A16B3EFB1E99CE4C00A71DD0 /* libc++.tbd */,
+				A16B3EF91E99CE3C00A71DD0 /* libicucore.tbd */,
+				A1D9CD141E99C964008EA2E4 /* libsqlite3.tbd */,
+				A1D9CD121E99C94D008EA2E4 /* CoreData.framework */,
+				A1D9CD101E99C935008EA2E4 /* FirebaseAnalytics */,
+				A1D9CD0E1E99C8D2008EA2E4 /* GoogleToolboxForMac.framework */,
 				29FDC48A1A9565E4D689582C /* Pods_Don_tStressIt.framework */,
 				BA83680C34243BE93984498B /* Pods_Don_tStressItTests.framework */,
 				BFCD8080F5582970B95B84B4 /* Pods_Don_tStressItUITests.framework */,
@@ -299,7 +316,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10CC6501E9963B9001A28EC /* LaunchScreen.storyboard in Resources */,
-				A16AA7081E99B6F100977B9E /* GoogleService-Info.plist in Resources */,
 				A10CC64D1E9963B9001A28EC /* Assets.xcassets in Resources */,
 				A10CC64B1E9963B9001A28EC /* Main.storyboard in Resources */,
 			);
@@ -309,7 +325,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16AA7091E99B6F100977B9E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +332,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16AA70A1E99B6F100977B9E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,8 +640,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EURL27CLKV;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Don'tStressIt/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andywong.Don-tStressIt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -640,8 +658,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EURL27CLKV;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Don'tStressIt/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andywong.Don-tStressIt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

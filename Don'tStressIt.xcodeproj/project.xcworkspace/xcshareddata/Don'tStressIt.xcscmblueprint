@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CAF28947E1B454B2C5BB9449F382B5874D6068E5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CD16B0BB58822FE48455406A86A53E6D6C5A3E40" : 9223372036854775807,
+    "CAF28947E1B454B2C5BB9449F382B5874D6068E5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7AE5F1BB-BA2E-43D5-9F89-E95CE6A37DCE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CD16B0BB58822FE48455406A86A53E6D6C5A3E40" : "",
+    "CAF28947E1B454B2C5BB9449F382B5874D6068E5" : "Don'tStressIt\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Don'tStressIt",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Don'tStressIt.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wongandydev\/DontStressIt.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CAF28947E1B454B2C5BB9449F382B5874D6068E5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wongandydev\/androidProjects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD16B0BB58822FE48455406A86A53E6D6C5A3E40"
+    }
+  ]
+}

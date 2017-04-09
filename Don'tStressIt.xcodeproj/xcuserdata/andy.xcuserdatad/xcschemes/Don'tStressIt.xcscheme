@@ -20,6 +20,34 @@
                ReferencedContainer = "container:Don&apos;tStressIt.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A10CC6551E9963BA001A28EC"
+               BuildableName = "Don&apos;tStressItTests.xctest"
+               BlueprintName = "Don&apos;tStressItTests"
+               ReferencedContainer = "container:Don&apos;tStressIt.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A10CC6601E9963BA001A28EC"
+               BuildableName = "Don&apos;tStressItUITests.xctest"
+               BlueprintName = "Don&apos;tStressItUITests"
+               ReferencedContainer = "container:Don&apos;tStressIt.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -28,26 +56,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A10CC6551E9963BA001A28EC"
-               BuildableName = "Don&apos;tStressItTests.xctest"
-               BlueprintName = "Don&apos;tStressItTests"
-               ReferencedContainer = "container:Don&apos;tStressIt.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A10CC6601E9963BA001A28EC"
-               BuildableName = "Don&apos;tStressItUITests.xctest"
-               BlueprintName = "Don&apos;tStressItUITests"
-               ReferencedContainer = "container:Don&apos;tStressIt.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

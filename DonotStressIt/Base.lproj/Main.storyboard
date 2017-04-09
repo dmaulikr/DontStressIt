@@ -317,6 +317,13 @@
                             <constraint firstItem="ti4-X6-hCp" firstAttribute="top" secondItem="DQI-mN-hpY" secondAttribute="bottom" constant="49" id="ynB-tH-2p7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="confirmTextField" destination="b8I-7U-dVu" id="9Jd-ER-KBA"/>
+                        <outlet property="emailTextField" destination="DQI-mN-hpY" id="SUa-Bm-MTU"/>
+                        <outlet property="nameTextField" destination="Mdg-ZB-K9o" id="H4h-lH-KJ4"/>
+                        <outlet property="passwordTextField" destination="8sD-Mg-dXK" id="Mnt-QS-Or2"/>
+                        <outlet property="usernameTextField" destination="ti4-X6-hCp" id="AhO-j4-Bht"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kXq-YS-J5W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

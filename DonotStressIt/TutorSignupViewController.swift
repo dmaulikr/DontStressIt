@@ -11,6 +11,13 @@ import UIKit
 
 class TutorSignuoVuewController:UIViewController{
 	
+	@IBOutlet weak var emailTextField: UITextField!
+	@IBOutlet weak var nameTextField: UITextField!
+	@IBOutlet weak var usernameTextField: UITextField!
+	@IBOutlet weak var passwordTextField: UITextField!
+	@IBOutlet weak var confirmTextField: UITextField!
+	
+	
 	override func viewDidLoad() {
 		//Top TextFieldLine
 		let topLayer = CALayer()

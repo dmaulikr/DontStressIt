@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fYm-hv-OEm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5jq-by-Aoi">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -212,10 +212,10 @@
             </objects>
             <point key="canvasLocation" x="908" y="245"/>
         </scene>
-        <!--Chat List View Controller-->
+        <!--View Controller-->
         <scene sceneID="GvS-bW-u59">
             <objects>
-                <viewController id="fYm-hv-OEm" customClass="ChatListViewController" customModule="DoNotStressIt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fYm-hv-OEm" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ahS-3j-wZk"/>
                         <viewControllerLayoutGuide type="bottom" id="x4s-L1-OFY"/>
@@ -258,7 +258,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wY6-KL-fcI">
                                 <rect key="frame" x="-0.5" y="511" width="375" height="50"/>
@@ -282,6 +282,7 @@
                             <constraint firstItem="wY6-KL-fcI" firstAttribute="width" secondItem="Wrp-Pt-fnK" secondAttribute="width" id="934-rZ-U7V"/>
                             <constraint firstItem="wY6-KL-fcI" firstAttribute="centerX" secondItem="d7f-HV-amB" secondAttribute="centerX" id="EA3-BF-vwA"/>
                             <constraint firstItem="d7f-HV-amB" firstAttribute="top" secondItem="VKg-ze-DzI" secondAttribute="bottom" constant="1" id="KK6-US-Ala"/>
+                            <constraint firstItem="d7f-HV-amB" firstAttribute="width" secondItem="Wrp-Pt-fnK" secondAttribute="width" id="KXD-Si-BU4"/>
                             <constraint firstItem="VKg-ze-DzI" firstAttribute="trailing" secondItem="d7f-HV-amB" secondAttribute="trailing" id="egc-Wo-jwK"/>
                             <constraint firstItem="4Su-Vk-SOM" firstAttribute="top" secondItem="wY6-KL-fcI" secondAttribute="bottom" constant="106" id="o5V-Pb-xRe"/>
                             <constraint firstItem="VKg-ze-DzI" firstAttribute="leading" secondItem="d7f-HV-amB" secondAttribute="leading" id="vQ4-YJ-urR"/>
@@ -290,6 +291,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="VKg-ze-DzI" id="6Wk-2Z-E8p"/>
                         <outlet property="passwordTextField" destination="d7f-HV-amB" id="2gq-Nk-L4Q"/>
+                        <segue destination="fYm-hv-OEm" kind="show" identifier="toGoChat" id="q3p-rC-SSQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DZr-4V-1ra" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -403,4 +405,7 @@
             <point key="canvasLocation" x="908" y="905"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="q3p-rC-SSQ"/>
+    </inferredMetricsTieBreakers>
 </document>

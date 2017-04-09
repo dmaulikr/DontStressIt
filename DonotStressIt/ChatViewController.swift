@@ -8,10 +8,19 @@
 
 import Foundation
 import UIKit
+import Firebase
 import JSQMessagesViewController
 
-class ChatViewController: JSQMessagesViewController {
+class ChatViewController: JSQMessagesViewController{
+	
+	var message = [JSQMessage]()
+	
+	
 	override func viewDidLoad() {
-		
+		super.viewDidLoad()
+	}
+	
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
 	}
 }

@@ -1,6 +1,0 @@
-framework module Pods_Don_tStressItUITests {
-  umbrella header "Pods-Don'tStressItUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

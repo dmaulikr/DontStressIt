@@ -1,6 +1,0 @@
-framework module Pods_Don_tStressIt {
-  umbrella header "Pods-Don'tStressIt-umbrella.h"
-
-  export *
-  module * { export * }
-}
